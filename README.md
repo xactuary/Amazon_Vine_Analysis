@@ -63,3 +63,9 @@ The following pie charts help to visualize the percent of reviews by star rating
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/VinePie.png)
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/NonVinePie.png)
+
+Although there is a small difference in the 5 star reviews - 65% vs 70%, overall the positive reviews including the 4 and 5 star ratings is remarkably similar for the Vine vs non-Vine datasets.  Given them small size of the Vine dataset, this difference could be random variation rather than a true bias.  We can do hypothesis testing of these results by setting the null hypothesis that the average star review for each dataset is the same and the alternative hypothesis being that they are not the same.  
+
+
+
+
