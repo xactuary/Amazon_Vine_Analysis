@@ -29,13 +29,13 @@ After removing these above values, I have calculated tables by "Star Rating" of 
 ###  VINE PROGRAM RESULTS
 
 
-The following table shows the total number of reviews that are part of the Vine program.
+1.  The following table shows the total number of reviews that are part of the Vine program.
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_y_gt50pct.PNG)
 
 With only 263 Vine reviews, this is a fairly small sample for analysis purposes.  
 
-The following table breaks the total Vine reviews down by Star Rating and calculates the percent each star rating represents of the total Vine reviews.
+2.  The following table breaks the total Vine reviews down by Star Rating and calculates the percent each star rating represents of the total Vine reviews.
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_y_pct.PNG)
 
@@ -44,13 +44,13 @@ So about 65% of Vine reviews give 5 star ratings to the products.  In addition, 
 
 ### NON-VINE RESULTS
 
-The following table shows the total non-Vine reviews in the dataset after reducing based on the same criteria as the Vine reviews.
+3.  The following table shows the total non-Vine reviews in the dataset after reducing based on the same criteria as the Vine reviews.
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_n_gt50pct.PNG)
 
 With over 58,000 helpful reviews outside the Vine program, the non-Vine review data set is significantly more credible than the Vine dataset.  
 
-The following table shows the percent of reviews by star rating for non-Vine program reviews:
+4.  The following table shows the percent of reviews by star rating for non-Vine program reviews:
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_n_pct.PNG)
 
@@ -64,7 +64,7 @@ The following pie charts help to visualize the percent of reviews by star rating
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/NonVinePie.png)
 
-Although there is a small difference in the 5 star reviews - 65% vs 70%, overall the positive reviews including the 4 and 5 star ratings is remarkably similar for the Vine vs non-Vine datasets.  Given them small size of the Vine dataset, this difference could be random variation rather than a true bias.  We can do hypothesis testing of these results by setting the null hypothesis that the average star review for each dataset is the same and the alternative hypothesis being that they are not the same.  
+Although there is a small difference in the 5 star reviews - 65% Vine vs 70% non-Vine, overall the positive reviews including the 4 and 5 star ratings is remarkably similar for the Vine vs non-Vine datasets.  In fact, the non-Vine review set had more 5 star reviews than the paid Vine review set.  Given the small size of the Vine dataset, this difference could be random variation rather than a true bias.  Just based on a visual review of these numbers, there does NOT appear to be any bias towards higher reviews in the paid Vine dataset.  To statistically confirm this results, we could use R to do hypothesis testing of these results by setting the null hypothesis that the average star review for each dataset is the same and the alternative hypothesis being that they are not the same.  However, this is beyond this basic analysis.  
 
 
 
