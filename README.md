@@ -22,14 +22,20 @@ To make the analysis more credible, I have removed the instances where the total
 
 After removing these above values, I have calculated tables by "Star Rating" of the review divided between those that were part of the Vine program and those that were not.  
 
-The following table shows the total reviews that are part of the Vine program.
+The following table shows the total number of reviews that are part of the Vine program.
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_y_gt50pct.PNG)
 
-This table breaks the total Vine reviews down by Star Rating and calculates the percent each star rating represents of the total Vine reviews.
+With only 263 Vine reviews, this is a fairly small sample for analysis purposes.  
+
+The following table breaks the total Vine reviews down by Star Rating and calculates the percent each star rating represents of the total Vine reviews.
 
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_y_pct.PNG)
+
+So about 65% of Vine reviews give 5 star ratings to the products.  
+
+To compare to the non-Vine data, we look at the total size of the dataset. 
 
 This total shows significantly more reviews than in the Vine program.  
 
@@ -37,15 +43,17 @@ The following table shows the percent of reviews by star rating for non-Vine pro
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_n_pct.PNG)
 
-These reviews show that 69.9% of non-Vine participant reviews have been given 5 stars.  This is slightly higher than the Vine review percents but still in the same ballpark.  
+These reviews show that about 70% of non-Vine participant reviews have been given 5 stars.  This is slightly higher than the Vine review percents but still in the same ballpark.  
 
 
 
-So 64.6% of Vine reviews give 5 star ratings to the products.
+
 
 Now we will compare this to the non-Vine review.  This table shows the total non-Vine reviews in the dataset after reducing based on the above criteria.
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_n_gt50pct.PNG)
+
+
 
 
 Pie chart for Vine versus non-Vine Reviews
