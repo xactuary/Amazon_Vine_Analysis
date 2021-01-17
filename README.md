@@ -16,4 +16,6 @@ The goal of this analysis is to determine if there is any bias towards favorable
 
 I have used PySpark to read in the Amazon data.  I have created a dataFrame to collect the Vine data for analysis.  
 
-!p[()
+![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_df.PNG)
+
+
