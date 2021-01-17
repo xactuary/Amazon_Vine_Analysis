@@ -31,5 +31,13 @@ This table breaks the total Vine reviews down by Star Rating and calculates the 
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_y_pct.PNG)
 
+So 64.6% of Vine reviews give 5 star ratings to the products.
+
+Now we will compare this to the non-Vine review.  This table shows the total non-Vine reviews in the dataset after reducing based on the above criteria.
+
+![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_n_gt50pct.PNG)
+
+
+
 
 ![]()
