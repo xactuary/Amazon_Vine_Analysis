@@ -48,6 +48,8 @@ Now we will compare this to the non-Vine review.  This table shows the total non
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_n_gt50pct.PNG)
 
 
+Pie chart for Vine versus non-Vine Reviews
 
+![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/VinePie.png)
 
-![]()
+![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/NonVinePie.png)
