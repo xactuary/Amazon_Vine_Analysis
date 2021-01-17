@@ -54,18 +54,11 @@ The following table shows the percent of reviews by star rating for non-Vine pro
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_n_pct.PNG)
 
-These reviews show that about 70% of non-Vine participant reviews have been given 5 stars.  This is slightly higher than the Vine review percents but still in the same ballpark.  
+These reviews show that about 70% of non-Vine participant reviews have been given 5 stars.  This is slightly higher than the Vine review percents but still in the same ballpark.  In addition, 18% of the reviews rank the products as 4 stars.  So the positive results total 88% which is almost exactly the same as the Vine review dataset.  
 
+### COMPARISON OF VINE VS NON-VINE RESULTS
 
-
-
-
-
-
-
-
-
-Pie chart for Vine versus non-Vine Reviews
+The following pie charts help to visualize the percent of reviews by star rating for the two different populations we are examining.  
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/VinePie.png)
 
