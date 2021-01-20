@@ -33,15 +33,15 @@ After removing these above values, I have calculated tables by "Star Rating" of 
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_y_gt50pct.PNG)
 
-With only 263 Vine reviews, this is a fairly small sample for analysis purposes.  
+With only 60 Vine reviews, this is a fairly small sample for analysis purposes.  
 
 2.  The following table breaks the total Vine reviews down by Star Rating and calculates the percent each star rating represents of the total Vine reviews.
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_y_pct.PNG)
       
-So there are 170 5 star reviews from Vine members.
+So there are 34 5 star reviews from Vine members.
 
-3.  Approximately 65% of Vine reviews give 5 star ratings to the products.  In addition, 24% give 4 star reviews.  So positive reviews total 89% of the reviews.  This is a large percentage.  
+3.  Approximately 57% of Vine reviews give 5 star ratings to the products.  In addition, 27% give 4 star reviews.  So positive reviews total 84% of the reviews.  This is a large percentage.  
 
 
 ### NON-VINE RESULTS
@@ -50,15 +50,15 @@ So there are 170 5 star reviews from Vine members.
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/ttl_n_gt50pct.PNG)
 
-With over 58,000 helpful reviews outside the Vine program, the non-Vine review data set is significantly more credible than the Vine dataset.  
+With 14,477 helpful reviews outside the Vine program, the non-Vine review data set is significantly more credible than the Vine dataset.  
 
 2.  The following table shows the percent of reviews by star rating for non-Vine program reviews:
 
 ![](https://github.com/xactuary/Amazon_Vine_Analysis/blob/main/vine_n_pct.PNG)
   
-So there are 41,060 5 star reviews from non-Vine members.  
+So there are 8,212 5 star reviews from non-Vine members.  
 
-3.  These reviews show that about 70% of non-Vine participant reviews have been given 5 stars.  This is slightly higher than the Vine review percents but still in the same ballpark.  In addition, 18% of the reviews rank the products as 4 stars.  So the positive results total 88% which is almost exactly the same as the Vine review dataset.  
+3.  These reviews show that about 57% of non-Vine participant reviews have been given 5 stars.  This is the same as the Vine review percent.  In addition, 19% of the reviews rank the products as 4 stars.  So the positive results total 75% which is lower than the Vine dataset.  
 
 ### COMPARISON OF VINE VS NON-VINE RESULTS
 
@@ -70,7 +70,7 @@ The following pie charts help to visualize the percent of reviews by star rating
 
 ## SUMMARY OF RESULTS
 
-Although there is a small difference in the 5 star reviews - 65% Vine vs 70% non-Vine, overall the positive reviews including the 4 and 5 star ratings is remarkably similar for the Vine vs non-Vine datasets.  In fact, the non-Vine review set had more 5 star reviews than the paid Vine review set.  Given the small size of the Vine dataset, this difference could be random variation rather than a true bias.  Just based on a visual review of these numbers, there does NOT appear to be any bias towards higher reviews in the paid Vine dataset. 
+Although there is no difference in the 5 star reviews - 57% Vine vs 57% non-Vine, overall the positive reviews including the 4 and 5 star ratings is somewhat higher for the Vine vs non-Vine datasets.  Given the small size of the Vine dataset, this difference could be random variation rather than a true bias.  Just based on a visual review of these numbers, there does NOT appear to be any bias towards 5 star reviews in the paid Vine dataset. 
 
 To statistically confirm these results, we could use R to do hypothesis testing of these results by setting the null hypothesis that the average star review for each dataset is the same and the alternative hypothesis being that they are not the same.  However, this is beyond this basic analysis.  In addition, we could run the same analysis on the other Amazon vine datasets to see if the results are similar.  Since this particular one has so few Vine reviews, it is possible that it is not representative of all Vine reviews.  
 
